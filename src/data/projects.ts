@@ -26,7 +26,11 @@ export const projects: Project[] = [
       'A cross-platform schedule companion for music festivals. Browse the full lineup, save sets with custom notification timing, get conflict alerts between favorites, and explore stages, artists, and a festival map. Ships to iOS and Android via Capacitor with local notifications.',
     tags: ['React 18', 'TypeScript', 'Tailwind', 'Radix UI', 'Framer Motion', 'Express 5', 'Drizzle', 'Capacitor'],
     featured: true,
-    links: [{ label: 'GitHub', href: 'https://github.com/softwaresCabe/pocketsets' }],
+    links: [
+      { label: 'App Store', href: 'https://apps.apple.com/us/app/pocketsets/id6762584513' },
+      { label: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.pocketsets.app' },
+      { label: 'GitHub', href: 'https://github.com/softwaresCabe/pocketsets' },
+    ],
     accent: '#22d3ee',
   },
   {
