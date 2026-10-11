@@ -14,7 +14,8 @@ export const experience: Experience[] = [
     period: 'Jun 2025 — Jan 2026',
     highlights: [
       'Served as a permanent Critical Rotations Engineer supporting QC, returns, inventory, and reverse-logistics systems across 18+ fulfillment centers.',
-      'Resolved 30+ engineering tickets per month across HighJump WMS, Manhattan, QC apps, inventory systems, and returns platforms — including 3+ quarterly escalations tied to $100K+ operational or financial exposure.',
+      'Resolved 30+ engineering tickets per month across HighJump WMS, Manhattan, QC apps, inventory systems, and returns platforms.',
+      'Owned triage and resolution for high-impact incidents, including 3+ quarterly escalations tied to $100K+ operational or financial exposure — then delivered code fixes, deployed production changes, and scoped cross-team work for recurring platform issues.',
       'Isolated a returns software feature gap causing roughly 40 hours of manual adjustment work per week per fulfillment center, then led the fix from first-touch investigation through scoping, PM design review, operations collaboration, deployment, and production validation.',
       'Built and supported Java, Python, Node, REST API, and React/TypeScript systems, improving defect detection, recovery automation, and inventory accuracy — debugging with SQL, DataDog, Kibana, Grafana, Postman, REST APIs, SQL Server, Postgres, and IntelliJ.',
     ],
@@ -26,6 +27,7 @@ export const experience: Experience[] = [
     highlights: [
       'Supported HighJump WMS production applications across 18+ fulfillment centers, resolving warehouse-impacting issues in outbound, inventory, and returns workflows.',
       'Triaged and resolved 160+ production defects annually using SQL, Kibana logs, DataDog dashboards, system monitoring, and cross-application debugging.',
+      'Diagnosed recurring WMS issues by tracing data inconsistencies, workflow failures, and interface errors, and built advanced SQL reports to support fulfillment-center decision-making and defect analysis.',
       'Authored production fixes and workflow improvements that reduced repeat defects and improved stability, while validating WMS integrations by troubleshooting interface failures and protecting inventory data integrity.',
       'Partnered with Operations leadership to translate process gaps into system improvements, led production escalations across engineering and vendor teams, and mentored 15+ junior engineers by improving SOPs and knowledge-sharing processes.',
     ],

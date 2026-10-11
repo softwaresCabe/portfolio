@@ -16,6 +16,12 @@ export const profile = {
   ],
 } as const
 
+export const education = {
+  degree: 'Associate of Science, Computer Science',
+  school: 'Norco College',
+  location: 'Norco, CA',
+} as const
+
 export const stats = [
   { value: '6+', label: 'Years engineering' },
   { value: '18+', label: 'Fulfillment centers supported' },

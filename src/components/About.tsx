@@ -1,4 +1,4 @@
-import { profile, stats } from '../data/profile'
+import { education, profile, stats } from '../data/profile'
 import Reveal from './Reveal'
 
 export default function About() {
@@ -7,7 +7,7 @@ export default function About() {
       <div className="container">
         <Reveal>
           <p className="section__kicker">01 — About</p>
-          <h2 className="section__title">From inventory counts to production-critical systems</h2>
+          <h2 className="section__title">From warehouse floors to production-critical systems</h2>
         </Reveal>
 
         <div className="about__grid">
@@ -28,6 +28,13 @@ export default function About() {
                 </li>
               ))}
             </ul>
+            <div className="about__edu">
+              <span className="about__edu-kicker">Education</span>
+              <span className="about__edu-degree">{education.degree}</span>
+              <span className="about__edu-school">
+                {education.school} · {education.location}
+              </span>
+            </div>
           </Reveal>
         </div>
       </div>

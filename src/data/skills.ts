@@ -6,7 +6,7 @@ export type SkillGroup = {
 export const skills: SkillGroup[] = [
   {
     title: 'Languages & Frameworks',
-    items: ['TypeScript', 'JavaScript', 'React', 'Redux', 'Node.js', 'Express', 'PHP'],
+    items: ['TypeScript', 'JavaScript', 'React', 'Redux', 'Node.js', 'Express', 'Java', 'Python', 'PHP'],
   },
   {
     title: 'Back-End & Data',
@@ -18,14 +18,14 @@ export const skills: SkillGroup[] = [
   },
   {
     title: 'DevOps & Observability',
-    items: ['Docker', 'Jenkins', 'CI/CD', 'Kibana', 'DataDog', 'PagerDuty'],
+    items: ['Docker', 'Jenkins', 'CI/CD', 'Kibana', 'DataDog', 'Grafana', 'PagerDuty'],
   },
   {
     title: 'WMS & Logistics',
-    items: ['HighJump', 'Manhattan', 'Outbound systems', 'Returns & recovery', 'Multi-site support'],
+    items: ['HighJump', 'Manhattan', 'Outbound systems', 'Returns & recovery', 'Inventory quality', 'Multi-site support'],
   },
   {
     title: 'Practice & Tools',
-    items: ['Root cause analysis', 'Incident response', 'Jira', 'Confluence', 'ServiceNow', 'Mentoring'],
+    items: ['Root cause analysis', 'Incident response', 'Postman', 'Jira', 'Confluence', 'ServiceNow', 'Mentoring'],
   },
 ]

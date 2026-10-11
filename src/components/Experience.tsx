@@ -7,10 +7,10 @@ export default function Experience() {
       <div className="container">
         <Reveal>
           <p className="section__kicker">02 — Experience</p>
-          <h2 className="section__title">Five roles, one company, a steady climb</h2>
+          <h2 className="section__title">Three roles, one company, a steady climb</h2>
           <p className="section__lead">
-            Promoted from inventory administrator to Critical Rotations Engineer at Wayfair — growing
-            from data validation into building the systems that keep fulfillment moving.
+            Nearly seven years at Wayfair, from warehouse IT support to Critical Rotations Engineer — growing
+            from keeping devices and sites running into building the systems that keep fulfillment moving.
           </p>
         </Reveal>
 
